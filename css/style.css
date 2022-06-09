@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+   
+    .contener_horario{
+        background-color: #222222;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+   
+    .cx-lista{
+       background: #070707;
+       border: 1px solid black;
+       border-radius: 4px;
+       margin-left: 10px;
+       margin-right: 10px;
+       padding-top: 10px;
+   }
+   
+    .op-cl{
+        display: flex;
+        justify-content:space-between;
+        margin-left: 140px;
+        margin-right: 50px;
+    }
+    .op{
+        color: white;
+    }
+    .cl{
+        color: white;
+    }
+
+    .lista{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 30px;
+    }
+
+    .cont_li{
+        color: white;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+}
