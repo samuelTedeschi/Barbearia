@@ -1,9 +1,41 @@
 @media only screen and (max-width: 600px) {
    
+   .contener_banner{
+       position: relative;
+       margin: auto;
+   }
+
+   .titulo_bv{
+       position: absolute;
+       bottom: 18vh;
+       right: 26vW;
+       color: black;
+       font-size: 2rem;
+       font-weight: 500;
+   }
+
+   .titulo_barber{
+    position: absolute;
+    bottom: 12vh;
+    left: 18vw;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+
+   }
+
+   .banner{
+       filter: sepia(.2) opacity(.8) grayscale(.3);
+   }
+ 
     .contener_horario{
         background-color: #222222;
         padding-top: 40px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
+    }
+
+    .text-center{
+        margin-bottom: 30px;
     }
    
     .cx-lista{
@@ -38,5 +70,9 @@
         color: white;
         font-weight: 700;
         margin-bottom: 5px;
+    }
+
+    .img_sobre{
+        filter: grayscale(1) opacity(.9);
     }
 }
