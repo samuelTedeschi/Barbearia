@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-   
+   /*banner*/
    .contener_banner{
        position: relative;
        margin: auto;
@@ -15,19 +15,19 @@
    }
 
    .titulo_barber{
-    position: absolute;
-    bottom: 12vh;
-    left: 18vw;
-    color: black;
-    font-size: 2rem;
-    font-weight: 600;
-
+        position: absolute;
+        bottom: 12vh;
+        left: 18vw;
+        color: black;
+        font-size: 2rem;
+        font-weight: 600;
    }
 
    .banner{
        filter: sepia(.2) opacity(.8) grayscale(.3);
    }
  
+   /*horario*/
     .contener_horario{
         background-color: #222222;
         padding-top: 40px;
@@ -72,7 +72,41 @@
         margin-bottom: 5px;
     }
 
+    
+    /*sobre*/
     .img_sobre{
-        filter: grayscale(1) opacity(.9);
+        filter:grayscale(1) opacity(.9);
+    }
+
+    .contener_sobre{
+        position: relative;
+        margin: 0;
+    }
+
+    .titulo_sobre{
+        position: absolute;
+        bottom: 23vh;
+        left: 8vw;
+        color: black;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .conteudo_sobre{
+        position: absolute;
+        bottom: 5vh;
+        left: 10vw;
+        color: black;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    /*preço*/
+
+    .preço{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
