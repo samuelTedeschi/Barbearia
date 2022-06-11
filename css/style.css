@@ -1,30 +1,23 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
    /*banner*/
    .contener_banner{
        position: relative;
        margin: auto;
    }
 
-   .titulo_bv{
-       position: absolute;
-       bottom: 18vh;
-       right: 26vW;
-       color: black;
-       font-size: 2rem;
-       font-weight: 500;
-   }
+   
 
    .titulo_barber{
         position: absolute;
-        bottom: 12vh;
-        left: 18vw;
+        bottom: 20vh;
+        left: 14vw;
         color: black;
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 600;
    }
 
    .banner{
-       filter: sepia(.2) opacity(.8) grayscale(.3);
+       filter: sepia(.2) opacity(.8);
    }
  
    /*horario*/
@@ -50,8 +43,8 @@
     .op-cl{
         display: flex;
         justify-content:space-between;
-        margin-left: 140px;
-        margin-right: 50px;
+        margin-left: 200px;
+        margin-right: 70px;
     }
     .op{
         color: white;
@@ -85,16 +78,16 @@
 
     .titulo_sobre{
         position: absolute;
-        bottom: 23vh;
-        left: 8vw;
+        bottom: 26vh;
+        left: 10vw;
         color: black;
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .conteudo_sobre{
         position: absolute;
-        bottom: 5vh;
+        bottom: 10vh;
         left: 10vw;
         color: black;
         font-weight: 500;
@@ -103,10 +96,68 @@
 
     /*preço*/
 
+    .cx_preço{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .preço{
         display: flex;
         justify-content: space-between;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    /*contato*/
+
+    .cx_contato{
+        position: relative;
+        margin: 0;
+    }
+
+    .img_contato{
+        filter: grayscale(2);
+    }
+
+    .conteudo_contato{
+        background: #070707;
+        margin: 0 50px;
+        position: absolute;
+        padding: 20px 90px;
+        bottom: 4vh;
+        text-align: center;
+    }
+
+    .contatos{
+        font-size: 14px;
+    }
+
+    .cx_conforto{
+        position: relative;
+        margin: 0;
+    }
+
+    .conteudo_conforto{
+        background-color: #070707;
+        margin: 0 50px;
+        padding-top: 10px;
+        position: absolute;
+        bottom: 10vh;
+    }
+
+    .img_conforto{
+        filter: grayscale(2);
+    }
+
+
+    .rodape{
+        background-color: #070707;
+        padding:8px;
+    }
+
+    .rodape_conteudo{
+        margin-top: 15px;
+        color: aliceblue;
+        font-size: 12px;
     }
 }
