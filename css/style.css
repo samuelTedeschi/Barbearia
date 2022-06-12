@@ -1,3 +1,69 @@
+.cx-mobi{
+    display: none;
+}
+
+.contener_banner{
+    position: relative;
+    margin: 0;
+}
+
+.titulo_barber{
+    position: absolute;
+    top: 35vh;
+    left: 25vw;
+    font-size: 5.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.contener_horarios_web{
+    background-color:#222222;
+    padding: 60px 0px;
+}
+
+.contener_horario_mob{
+    display: none;
+}
+
+.cx_horario{
+    background-color: black;
+    padding: 20px 40px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.cxs_dias{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.titulo_horario{
+    color: aliceblue;
+    text-align: center;
+}
+
+.contener_sobre{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.conteudos{
+    margin:0 100px
+}
+
+.img_sobre{
+    width: 600px;
+}
+
+.preço{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+
 @media only screen and (max-width: 480px) {
    /*banner*/
    .contener_banner{
@@ -21,7 +87,7 @@
    }
  
    /*horario*/
-    .contener_horario{
+    .contener_horario_mob{
         background-color: #222222;
         padding-top: 40px;
         padding-bottom: 60px;
