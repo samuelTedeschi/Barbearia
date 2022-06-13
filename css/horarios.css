@@ -1,0 +1,26 @@
+.contener_horarios_web{
+    background-color:#262626;
+    padding: 60px 0px;
+}
+
+.cx_horario{
+    background-color: #0D0D0D;
+    padding: 20px 40px;
+    text-align: center;
+    color: #F2A25C;
+    border-radius: 4px;
+    box-shadow: 4px 5px 10px black;
+    
+}
+
+.cxs_dias{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.titulo_horario{
+    color: #F2A25C;
+    text-align: center;
+    font-size: 40px;
+}

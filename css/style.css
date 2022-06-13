@@ -1,3 +1,24 @@
+/* Color Theme Swatches in Hex */
+.HSU’S-PROMISE-1-hex { color: #F2A25C; }
+.HSU’S-PROMISE-2-hex { color: #A6633C; }
+.HSU’S-PROMISE-3-hex { color: #73412F; }
+.HSU’S-PROMISE-4-hex { color: #262626; }
+.HSU’S-PROMISE-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.HSU’S-PROMISE-1-rgba { color: rgba(242, 162, 92, 1); }
+.HSU’S-PROMISE-2-rgba { color: rgba(165, 98, 59, 1); }
+.HSU’S-PROMISE-3-rgba { color: rgba(114, 65, 47, 1); }
+.HSU’S-PROMISE-4-rgba { color: rgba(38, 38, 38, 1); }
+.HSU’S-PROMISE-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.HSU’S-PROMISE-1-hsla { color: hsla(28, 85, 65, 1); }
+.HSU’S-PROMISE-2-hsla { color: hsla(22, 47, 44, 1); }
+.HSU’S-PROMISE-3-hsla { color: hsla(16, 41, 31, 1); }
+.HSU’S-PROMISE-4-hsla { color: hsla(0, 0, 15, 1); }
+.HSU’S-PROMISE-5-hsla { color: hsla(0, 0, 5, 1); }
+
 .cx-mobi{
     display: none;
 }
@@ -16,52 +37,42 @@
     color: black;
 }
 
-.contener_horarios_web{
-    background-color:#222222;
-    padding: 60px 0px;
-}
-
 .contener_horario_mob{
     display: none;
 }
 
-.cx_horario{
-    background-color: black;
-    padding: 20px 40px;
-    text-align: center;
+
+
+.rodape{
+    background-color: #070707;
+    padding-bottom: 2px;
+}
+.rodape_conteudo{
+    text-align: start;
     color: aliceblue;
+    font-size: 14px;
+}
+
+.lista_c{
+    font-size: 24px;
+    text-align: start;
     
 }
 
-.cxs_dias{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 100px;
-}
-
-.titulo_horario{
-    color: aliceblue;
-    text-align: center;
-}
-
-.contener_sobre{
+.cx_menu_inferior{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    padding: 50px 100px;
+    background-color: #0D0D0D;
+    color: #F2A25C;
 }
 
-.conteudos{
-    margin:0 100px
+.logo_2{
+    margin-right: 94px;
 }
 
-.img_sobre{
-    width: 600px;
-}
-
-.preço{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 100px;
+.lista_menu{
+    margin-right: 64px;
 }
 
 @media only screen and (max-width: 480px) {

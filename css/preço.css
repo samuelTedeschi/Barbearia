@@ -1,0 +1,29 @@
+.preço{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 100px 100px;
+    background-color: #0D0D0D;
+}
+
+.conteudos_preço{
+    border: #F2A25C solid 1px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px;
+    margin-right: 10px;
+    background-color: #0D0D0D;
+    
+}
+
+.titulo_preço{
+    color: #F2A25C;
+    font-weight: 500;
+}
+
+.pre{
+    color: #F2A25C;
+    font-weight: 400;
+    font-size: 20px;
+}

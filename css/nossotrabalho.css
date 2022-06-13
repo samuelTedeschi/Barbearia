@@ -1,0 +1,14 @@
+.contener_sobre{
+    display: flex;
+    align-items: center;
+}
+
+.conteudos{
+    padding:133px;
+    background-color: #0D0D0D;
+    color: #F2A25C;
+}
+
+.img_sobre{
+    width: 601px;
+}
