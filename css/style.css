@@ -19,29 +19,6 @@
 .HSU’S-PROMISE-4-hsla { color: hsla(0, 0, 15, 1); }
 .HSU’S-PROMISE-5-hsla { color: hsla(0, 0, 5, 1); }
 
-.cx-mobi{
-    display: none;
-}
-
-.contener_banner{
-    position: relative;
-    margin: 0;
-}
-
-.titulo_barber{
-    position: absolute;
-    top: 35vh;
-    left: 25vw;
-    font-size: 5.5rem;
-    font-weight: 600;
-    color: black;
-}
-
-.contener_horario_mob{
-    display: none;
-}
-
-
 
 .rodape{
     background-color: #070707;
@@ -62,8 +39,9 @@
 .cx_menu_inferior{
     display: flex;
     align-items: center;
-    padding: 50px 100px;
-    background-color: #0D0D0D;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: #262626;
     color: #F2A25C;
 }
 
@@ -71,32 +49,26 @@
     margin-right: 94px;
 }
 
+.logo-img{
+    width: 200px;
+    height: 200px;
+}
+
 .lista_menu{
     margin-right: 64px;
 }
 
+.total_lista{
+    display: flex;
+}
+
 @media only screen and (max-width: 480px) {
    /*banner*/
-   .contener_banner{
-       position: relative;
-       margin: auto;
-   }
+ 
 
    
 
-   .titulo_barber{
-        position: absolute;
-        bottom: 20vh;
-        left: 14vw;
-        color: black;
-        font-size: 2.5rem;
-        font-weight: 600;
-   }
-
-   .banner{
-       filter: sepia(.2) opacity(.8);
-   }
- 
+   
    /*horario*/
     .contener_horario_mob{
         background-color: #222222;
