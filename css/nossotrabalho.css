@@ -12,3 +12,18 @@
 .img_sobre{
     width: 601px;
 }
+
+@media only screen and (max-width: 480px){
+    .contener_sobre{
+        flex-direction: column;
+    }
+
+    .conteudos{
+        padding: 10px;
+    }
+
+
+    .titulo_sobre{
+        text-align: center;
+    }
+}

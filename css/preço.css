@@ -27,3 +27,13 @@
     font-weight: 400;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 480px){
+
+    .preço{
+        padding: 10px 10px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+    }
+
+}

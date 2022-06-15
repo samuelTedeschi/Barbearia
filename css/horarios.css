@@ -24,3 +24,13 @@
     text-align: center;
     font-size: 40px;
 }
+
+@media only screen and (max-width: 480px){
+
+    .cxs_dias{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        margin: 20px 10px;
+    }
+}

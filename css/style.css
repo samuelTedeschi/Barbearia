@@ -5,53 +5,24 @@
 .HSU’S-PROMISE-4-hex { color: #262626; }
 .HSU’S-PROMISE-5-hex { color: #0D0D0D; }
 
-/* Color Theme Swatches in RGBA */
-.HSU’S-PROMISE-1-rgba { color: rgba(242, 162, 92, 1); }
-.HSU’S-PROMISE-2-rgba { color: rgba(165, 98, 59, 1); }
-.HSU’S-PROMISE-3-rgba { color: rgba(114, 65, 47, 1); }
-.HSU’S-PROMISE-4-rgba { color: rgba(38, 38, 38, 1); }
-.HSU’S-PROMISE-5-rgba { color: rgba(12, 12, 12, 1); }
-
-/* Color Theme Swatches in HSLA */
-.HSU’S-PROMISE-1-hsla { color: hsla(28, 85, 65, 1); }
-.HSU’S-PROMISE-2-hsla { color: hsla(22, 47, 44, 1); }
-.HSU’S-PROMISE-3-hsla { color: hsla(16, 41, 31, 1); }
-.HSU’S-PROMISE-4-hsla { color: hsla(0, 0, 15, 1); }
-.HSU’S-PROMISE-5-hsla { color: hsla(0, 0, 5, 1); }
-
-
 .rodape{
     background-color: #070707;
     padding-bottom: 2px;
 }
 .rodape_conteudo{
-    text-align: start;
+    text-align: center;
     color: aliceblue;
     font-size: 14px;
-}
-
-.lista_c{
-    font-size: 24px;
-    text-align: start;
-    
+    padding-top: 10px;
 }
 
 .cx_menu_inferior{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 100px;
-    background-color: #262626;
+    padding: 20px 100px;
+    background-color: #0D0D0D ;
     color: #F2A25C;
-}
-
-.logo_2{
-    margin-right: 94px;
-}
-
-.logo-img{
-    width: 200px;
-    height: 200px;
 }
 
 .lista_menu{
@@ -63,150 +34,13 @@
 }
 
 @media only screen and (max-width: 480px) {
-   /*banner*/
- 
 
-   
-
-   
-   /*horario*/
-    .contener_horario_mob{
-        background-color: #222222;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-
-    .text-center{
-        margin-bottom: 30px;
-    }
-   
-    .cx-lista{
-       background: #070707;
-       border: 1px solid black;
-       border-radius: 4px;
-       margin-left: 10px;
-       margin-right: 10px;
-       padding-top: 10px;
-   }
-   
-    .op-cl{
+    .cx_menu_inferior{
         display: flex;
-        justify-content:space-between;
-        margin-left: 200px;
-        margin-right: 70px;
+        flex-direction: column;
     }
-    .op{
-        color: white;
-    }
-    .cl{
-        color: white;
-    }
-
-    .lista{
-        display: flex;
-        justify-content: space-around;
-        margin-right: 30px;
-    }
-
-    .cont_li{
-        color: white;
-        font-weight: 700;
-        margin-bottom: 5px;
-    }
-
-    
-    /*sobre*/
-    .img_sobre{
-        filter:grayscale(1) opacity(.9);
-    }
-
-    .contener_sobre{
-        position: relative;
-        margin: 0;
-    }
-
-    .titulo_sobre{
-        position: absolute;
-        bottom: 26vh;
-        left: 10vw;
-        color: black;
-        font-weight: 700;
-        font-size: 2rem;
-    }
-
-    .conteudo_sobre{
-        position: absolute;
-        bottom: 10vh;
-        left: 10vw;
-        color: black;
-        font-weight: 500;
-        font-size: 1rem;
-    }
-
-    /*preço*/
-
-    .cx_preço{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .preço{
-        display: flex;
-        justify-content: space-between;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    /*contato*/
-
-    .cx_contato{
-        position: relative;
-        margin: 0;
-    }
-
-    .img_contato{
-        filter: grayscale(2);
-    }
-
-    .conteudo_contato{
-        background: #070707;
-        margin: 0 50px;
-        position: absolute;
-        padding: 20px 90px;
-        bottom: 4vh;
-        text-align: center;
-    }
-
-    .contatos{
-        font-size: 14px;
-    }
-
-    .cx_conforto{
-        position: relative;
-        margin: 0;
-    }
-
-    .conteudo_conforto{
-        background-color: #070707;
-        margin: 0 50px;
-        padding-top: 10px;
-        position: absolute;
-        bottom: 10vh;
-    }
-
-    .img_conforto{
-        filter: grayscale(2);
-    }
-
-
-    .rodape{
-        background-color: #070707;
-        padding:8px;
-    }
-
-    .rodape_conteudo{
-        margin-top: 15px;
-        color: aliceblue;
-        font-size: 12px;
+   
+    .total_lista{
+        font-size: 16px;
     }
 }

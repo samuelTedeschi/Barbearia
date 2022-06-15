@@ -47,6 +47,31 @@
 }
 .img_conforto{
     height: 500px;
-    width: 700px;
+    width: 666px;
     filter: grayscale(1);
+}
+
+@media only screen and (max-width: 480px){
+    .contener_contatos{
+        flex-direction: column;
+    }
+
+    .img_conforto{
+        height: 400px;
+        width: 480px;
+    }
+
+    .img_contato{
+        width: 480px;
+        height: 400px;
+    }   
+
+    .conteudo_conforto{
+        top:12vh;
+    }
+
+    .conteudo_contato{
+        top: 12vh;
+        right: 5vw;
+    }
 }
