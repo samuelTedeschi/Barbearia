@@ -1,39 +1,62 @@
+.cx_preço{
+    background-color: #0D0D0D;
+    padding-bottom: 40px;
+}
+
+.cx_preço h2{
+    color: #F2A25C;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+}
+
 .preço{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 100px 100px;
-    background-color: #0D0D0D;
+    padding-left: 40px;
 }
 
-.conteudos_preço{
-    border: #F2A25C solid 1px;
-    border-radius: 4px;
+.preço div{
+    border-style: none;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 5px;
-    margin-right: 10px;
-    background-color: #0D0D0D;
+    background-color: #F2A25C;
+    width: 16vw;
+    height: 16vh;
     
 }
 
-.titulo_preço{
-    color: #F2A25C;
+.preço div h3{
+    color: #0D0D0D;
     font-weight: 500;
 }
 
-.pre{
-    color: #F2A25C;
+.preço div p{
+    color: #0D0D0D;
     font-weight: 400;
     font-size: 20px;
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 480px){
 
     .preço{
-        padding: 10px 10px;
         grid-template-columns: repeat(2, 1fr);
-        row-gap: 10px;
+        row-gap: 5px;
     }
 
+    .preço div{
+        width: 40vw;
+    }
+
+    .preço div h3{
+        padding-top: 20px;
+    }
+
+    .preço div p {
+        padding-top: 40px;
+    }
 }
