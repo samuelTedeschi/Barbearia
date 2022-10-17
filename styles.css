@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+    color: aliceblue;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.banner{
+    filter: grayscale(1.0);
+}
+
+.img-1{
+    filter: grayscale(0.2);
+}
+
+.caixa{
+    position: relative;
+    margin: 0 auto;
+}
+
+.caixa .contato{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.678);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.conforto{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.712);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total_lista{
+    display: flex;
+}
+
+.lista_menu{
+    margin-right: 70px;
+}

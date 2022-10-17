@@ -1,3 +1,4 @@
+
 .contener_banner{
     display: flex;
     align-items: center;
@@ -32,15 +33,6 @@
     color: white;
 }
 
-.menu{
-    display: flex;
-    
-    align-items: center;
-    color: #F2A25C;
-    background-color: #0D0D0D;
-    padding-top: 10px;
-    padding-left: 100px;
-}
 
 .logo{
     font-weight: 600;
