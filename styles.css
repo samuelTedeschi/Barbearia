@@ -2,6 +2,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: linear-gradient(to right, #3c3b3f, #605c3c);
 }
 
 ul{
@@ -15,7 +16,16 @@ ul li {
 }
 
 .banner{
-    filter: grayscale(1.0);
+    background-image: url("./img/young-man-at-barbershop-trimming-hair.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nosso_trabalho{
+    background: linear-gradient(to right, #ffefba, #ffffff);
 }
 
 .img-1{
@@ -62,5 +72,5 @@ ul li {
 }
 
 body{
-    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+   
 }
