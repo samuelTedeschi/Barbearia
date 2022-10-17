@@ -60,3 +60,7 @@ ul li {
 .lista_menu{
     margin-right: 70px;
 }
+
+body{
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
