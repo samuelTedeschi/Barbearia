@@ -58,9 +58,7 @@ ul li {
 }
 
 .dados{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   border: solid red 1px;
 }
 
 .total_lista{
@@ -71,6 +69,3 @@ ul li {
     margin-right: 70px;
 }
 
-body{
-   
-}
