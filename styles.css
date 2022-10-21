@@ -15,6 +15,13 @@ ul li {
     margin-right: 30px;
 }
 
+.bg_linear{
+    background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 .banner{
     background-image: url("./img/young-man-at-barbershop-trimming-hair.jpg");
     min-height: 500px;
@@ -26,10 +33,6 @@ ul li {
 
 .nosso_trabalho{
     background: linear-gradient(to right, #ffefba, #ffffff);
-}
-
-.img-1{
-    filter: grayscale(0.2);
 }
 
 .caixa{
@@ -69,3 +72,6 @@ ul li {
     margin-right: 70px;
 }
 
+footer{
+    background-image: linear-gradient(to right, #3c3b3f, #605c3c);
+}
