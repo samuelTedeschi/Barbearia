@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-	Land page de uma barbearia
+	Landig page de uma barbearia
 </h3>
 
 <h4 align="center">
