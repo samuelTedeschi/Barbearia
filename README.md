@@ -30,6 +30,6 @@ Site de uma barbearia, com intenção de ser direta ao ponto para o cliente, mos
 
 Made with ❤️ by [Samuel Tedeschi](https://github.com/samuelTedeschi), get in touch!
 
-<a href="https://www.linkedin.com/in/samuel tedeschi" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
+<a href="https://www.linkedin.com/in/samuel-tedeschi" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
